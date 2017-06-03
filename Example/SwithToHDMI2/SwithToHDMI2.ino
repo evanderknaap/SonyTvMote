@@ -41,7 +41,7 @@ void setup() {
   if (client.connected())
   {
     Serial.println("Setup complete, shutting down tv");
-    mote.sendPostRequest(client,mote.tv_HDMI2);
+    mote.sendPostRequest(client,tv_HDMI2);
   }
   else
   {
